@@ -63,12 +63,12 @@
 <wire x1="61.9" y1="16.51" x2="61.9" y2="64.76" width="0" layer="20"/>
 <wire x1="61.9" y1="64.76" x2="-3.81" y2="64.76" width="0.1524" layer="20"/>
 <wire x1="-3.81" y1="64.76" x2="-3.81" y2="16.51" width="0" layer="20"/>
-<dimension x1="-6.35" y1="64.77" x2="-6.35" y2="16.51" x3="-8.89" y3="40.64" textsize="1.778" layer="1" visible="yes"/>
-<dimension x1="-3.81" y1="13.97" x2="60.96" y2="13.97" x3="28.575" y3="12.7" textsize="1.778" layer="1" visible="yes"/>
-<hole x="-0.254" y="19.762" drill="3"/>
-<hole x="58.254" y="19.873" drill="3"/>
-<hole x="-0.365" y="61.365" drill="3"/>
-<hole x="58.365" y="61.365" drill="3"/>
+<dimension x1="-6.35" y1="64.77" x2="-6.35" y2="16.51" x3="-8.89" y3="40.64" textsize="1.778" layer="1"/>
+<dimension x1="-3.81" y1="13.97" x2="60.96" y2="13.97" x3="28.575" y3="12.7" textsize="1.778" layer="1"/>
+<hole x="0" y="20" drill="3"/>
+<hole x="58" y="20" drill="3"/>
+<hole x="-1" y="62" drill="3"/>
+<hole x="59" y="62" drill="3"/>
 </plain>
 <libraries>
 <library name="ArduinoNanoV30" urn="urn:adsk.eagle:library:39315983">
