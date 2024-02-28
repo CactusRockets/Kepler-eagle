@@ -1681,6 +1681,8 @@ design rules under a new name.</description>
 <wire x1="54.66" y1="58.37" x2="54.66" y2="55.31" width="1.5" layer="16"/>
 </signal>
 <signal name="VCC">
+<contactref element="ARDUINO_NANO1" pad="15"/>
+<contactref element="U$3" pad="PL3"/>
 <contactref element="U$6" pad="1"/>
 <contactref element="U$3" pad="PL2"/>
 <contactref element="U$3" pad="PR2"/>
@@ -1692,15 +1694,10 @@ design rules under a new name.</description>
 <wire x1="50" y1="37" x2="52" y2="35" width="1.5" layer="16"/>
 <wire x1="52" y1="35" x2="52" y2="33" width="1.5" layer="16"/>
 <wire x1="50" y1="44" x2="50" y2="37" width="1.5" layer="16"/>
-<wire x1="47.3808375" y1="33.23516875" x2="52" y2="33" width="0" layer="19" extent="16-16"/>
-<wire x1="43.9518375" y1="33.23516875" x2="47.3808375" y2="33.23516875" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$4">
-<contactref element="ARDUINO_NANO1" pad="15"/>
-<contactref element="U$3" pad="PL3"/>
-<contactref element="U$3" pad="PR3"/>
-<wire x1="43.9228" y1="30" x2="44.45" y2="42.402" width="0" layer="19" extent="1-1"/>
-<wire x1="47.3518" y1="30" x2="43.9228" y2="30" width="0" layer="19" extent="1-1"/>
+<wire x1="43.9518375" y1="33.23516875" x2="44.45" y2="42.402" width="0" layer="19" extent="1-1"/>
+<wire x1="43.9228" y1="30" x2="43.9518375" y2="33.23516875" width="0" layer="19" extent="1-1"/>
+<wire x1="47.3808375" y1="33.23516875" x2="43.9518375" y2="33.23516875" width="0" layer="19" extent="1-1"/>
+<wire x1="52" y1="33" x2="47.3808375" y2="33.23516875" width="0" layer="19" extent="16-16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
