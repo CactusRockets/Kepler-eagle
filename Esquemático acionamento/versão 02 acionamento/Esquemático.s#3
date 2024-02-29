@@ -5106,6 +5106,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="99.06" y1="45.72" x2="99.06" y2="38.1" width="0.1524" layer="91"/>
 <label x="99.06" y="35.56" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="Q2" gate="G$1" pin="D"/>
+<wire x1="71.12" y1="5.08" x2="71.12" y2="12.7" width="0.1524" layer="91"/>
+<label x="71.12" y="12.7" size="1.778" layer="95"/>
+</segment>
 </net>
 </nets>
 </sheet>

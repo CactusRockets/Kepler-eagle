@@ -5002,8 +5002,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="P+1" gate="VCC" x="71.12" y="63.5" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="73.66" y="60.96" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="P+3" gate="VCC" x="12.7" y="25.4" smashed="yes">
-<attribute name="VALUE" x="10.16" y="22.86" size="1.778" layer="96" rot="R90"/>
+<instance part="P+3" gate="VCC" x="17.78" y="0" smashed="yes" rot="R180">
+<attribute name="VALUE" x="20.32" y="2.54" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="SP1" gate="G$1" x="48.26" y="33.02" smashed="yes" rot="R270">
 <attribute name="NAME" x="54.61" y="36.83" size="1.778" layer="95" rot="R270"/>
@@ -5014,8 +5014,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="GND1" gate="1" x="48.26" y="45.72" smashed="yes" rot="MR180">
 <attribute name="VALUE" x="45.72" y="48.26" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="GND2" gate="1" x="12.7" y="0" smashed="yes">
-<attribute name="VALUE" x="10.16" y="-2.54" size="1.778" layer="96"/>
+<instance part="GND2" gate="1" x="17.78" y="22.86" smashed="yes">
+<attribute name="VALUE" x="15.24" y="20.32" size="1.778" layer="96"/>
 </instance>
 <instance part="GND3" gate="1" x="48.26" y="-17.78" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="50.8" y="-20.32" size="1.778" layer="96" rot="MR0"/>
@@ -5044,12 +5044,6 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="P+3" gate="VCC" pin="VCC"/>
-<wire x1="12.7" y1="15.24" x2="12.7" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="1"/>
-<wire x1="10.16" y1="15.24" x2="12.7" y2="15.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
 <wire x1="71.12" y1="60.96" x2="71.12" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="1"/>
@@ -5061,18 +5055,18 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="99.06" y1="50.8" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
 </segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="2"/>
+<pinref part="P+3" gate="VCC" pin="VCC"/>
+<wire x1="10.16" y1="10.16" x2="17.78" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="10.16" x2="17.78" y2="2.54" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="Q2" gate="G$1" pin="S"/>
 <wire x1="71.12" y1="0" x2="71.12" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-</segment>
-<segment>
-<wire x1="12.7" y1="10.16" x2="12.7" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="2"/>
-<wire x1="10.16" y1="10.16" x2="12.7" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="GND2" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="SP1" gate="G$1" pin="1"/>
@@ -5083,6 +5077,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="48.26" y1="-12.7" x2="48.26" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$4" gate="G$1" pin="1"/>
+<wire x1="10.16" y1="15.24" x2="12.7" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="15.24" x2="12.7" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="12.7" y1="30.48" x2="17.78" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="30.48" x2="17.78" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
