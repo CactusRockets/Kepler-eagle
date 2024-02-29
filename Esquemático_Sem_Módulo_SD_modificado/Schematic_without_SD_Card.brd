@@ -1427,19 +1427,19 @@ design rules under a new name.</description>
 <param name="msDrill" value="0.35mm"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
-<param name="rvPadTop" value="0.25"/>
+<param name="rvPadTop" value="0.8"/>
 <param name="rvPadInner" value="0.25"/>
-<param name="rvPadBottom" value="0.25"/>
+<param name="rvPadBottom" value="0.8"/>
 <param name="rvViaOuter" value="0.25"/>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
 <param name="rlMinPadTop" value="10mil"/>
-<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMaxPadTop" value="30mil"/>
 <param name="rlMinPadInner" value="10mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
 <param name="rlMinPadBottom" value="10mil"/>
-<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMaxPadBottom" value="30mil"/>
 <param name="rlMinViaOuter" value="8mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
 <param name="rlMinViaInner" value="8mil"/>
@@ -1600,12 +1600,11 @@ design rules under a new name.</description>
 <signal name="N$1">
 <contactref element="ARDUINO_NANO1" pad="2"/>
 <contactref element="U$1" pad="VCC"/>
-<wire x1="22.59" y1="40.37" x2="23.48" y2="39.48" width="1.5" layer="16"/>
-<wire x1="22.59" y1="40.37" x2="12.462" y2="40.37" width="1.5" layer="16"/>
-<wire x1="12.462" y1="40.37" x2="11.43" y2="41.402" width="1.5" layer="16"/>
+<wire x1="22.844" y1="40.116" x2="23.5455" y2="39.4145" width="1.5" layer="16"/>
+<wire x1="22.844" y1="40.116" x2="12.716" y2="40.116" width="1.5" layer="16"/>
+<wire x1="12.716" y1="40.116" x2="11.43" y2="41.402" width="1.5" layer="16"/>
 <wire x1="11.43" y1="41.402" x2="11.43" y2="42.402" width="1.5" layer="16"/>
 <wire x1="23.5455" y1="33.79" x2="23.5455" y2="39.4145" width="1.5" layer="16"/>
-<wire x1="23.5455" y1="39.4145" x2="23.48" y2="39.48" width="1.5" layer="16"/>
 </signal>
 <signal name="N$3">
 <contactref element="ARDUINO_NANO1" pad="8"/>
@@ -1616,12 +1615,11 @@ design rules under a new name.</description>
 <wire x1="26.67" y1="42.402" x2="26.67" y2="44.402" width="1.5" layer="16"/>
 <wire x1="26.67" y1="44.402" x2="23.082" y2="47.99" width="1.5" layer="16"/>
 <wire x1="23.082" y1="47.99" x2="4.62815625" y2="47.99" width="1.5" layer="16"/>
-<wire x1="18.1795" y1="27.1905" x2="18.9635" y2="27.1905" width="1.5" layer="16"/>
-<wire x1="18.9635" y1="27.1905" x2="16.8095" y2="27.1905" width="1.5" layer="16"/>
-<wire x1="16.8095" y1="27.1905" x2="3.81" y2="40.19" width="1.5" layer="16"/>
+<wire x1="3.81" y1="40.19" x2="16.8095" y2="27.1905" width="1.5" layer="16"/>
 <wire x1="31.1655" y1="32.1655" x2="31.1655" y2="33.79" width="1.5" layer="16"/>
 <wire x1="18.9635" y1="27.1905" x2="26.1905" y2="27.1905" width="1.5" layer="16"/>
 <wire x1="26.1905" y1="27.1905" x2="31.1655" y2="32.1655" width="1.5" layer="16"/>
+<wire x1="16.8095" y1="27.1905" x2="18.9635" y2="27.1905" width="1.5" layer="16"/>
 </signal>
 <signal name="N$2">
 <contactref element="ARDUINO_NANO1" pad="9"/>
@@ -1651,14 +1649,10 @@ design rules under a new name.</description>
 </polygon>
 <contactref element="U$6" pad="2"/>
 <contactref element="ARDUINO_NANO1" pad="19"/>
-<wire x1="52.152" y1="47.848" x2="52.152" y2="47.774" width="1.5" layer="16"/>
 <wire x1="36.83" y1="57.642" x2="36.83" y2="55.17" width="1.5" layer="16"/>
 <wire x1="36.83" y1="55.17" x2="42" y2="50" width="1.5" layer="16"/>
-<wire x1="42" y1="50" x2="42" y2="48" width="1.5" layer="16"/>
-<wire x1="42" y1="48" x2="42" y2="42.492" width="1.5" layer="16"/>
+<wire x1="42" y1="50" x2="42" y2="42.492" width="1.5" layer="16"/>
 <wire x1="42" y1="42.492" x2="41.91" y2="42.402" width="1.5" layer="16"/>
-<wire x1="52.152" y1="47.774" x2="51.926" y2="48" width="1.5" layer="16"/>
-<wire x1="51.926" y1="48" x2="42" y2="48" width="1.5" layer="16"/>
 <wire x1="19.006" y1="22.033" x2="22.30443125" y2="22.033" width="1.5" layer="1"/>
 <wire x1="19.006" y1="22.033" x2="18.9635" y2="21.9905" width="1.5" layer="1"/>
 <wire x1="26.0855" y1="25.81406875" x2="26.0855" y2="33.79" width="1.5" layer="1"/>
@@ -1666,10 +1660,13 @@ design rules under a new name.</description>
 <wire x1="25.135715625" y1="24.864284375" x2="26.0855" y2="25.81406875" width="1.5" layer="1"/>
 <wire x1="25.17" y1="24.83" x2="25.135715625" y2="24.864284375" width="1.5" layer="1"/>
 <wire x1="55.88" y1="24.83" x2="42" y2="24.83" width="1.5" layer="1"/>
-<wire x1="42" y1="24.83" x2="25.17" y2="24.83" width="1.5" layer="1"/>
+<wire x1="42" y1="24.83" x2="41.746" y2="24.83" width="1.5" layer="1"/>
+<wire x1="41.746" y1="24.83" x2="25.17" y2="24.83" width="1.5" layer="1"/>
 <wire x1="41.91" y1="24.92" x2="42" y2="24.83" width="1.5" layer="1"/>
-<wire x1="41.91" y1="42.402" x2="42" y2="42.312" width="1.5" layer="1"/>
-<wire x1="42" y1="42.312" x2="42" y2="24.83" width="1.5" layer="1"/>
+<wire x1="41.91" y1="42.402" x2="41.746" y2="42.238" width="1.5" layer="1"/>
+<wire x1="41.746" y1="42.238" x2="41.746" y2="24.83" width="1.5" layer="1"/>
+<wire x1="52.152" y1="47.774" x2="44.226" y2="47.774" width="1.5" layer="16"/>
+<wire x1="44.226" y1="47.774" x2="42" y2="50" width="1.5" layer="16"/>
 </signal>
 <signal name="N$5">
 <contactref element="ARDUINO_NANO1" pad="12"/>
