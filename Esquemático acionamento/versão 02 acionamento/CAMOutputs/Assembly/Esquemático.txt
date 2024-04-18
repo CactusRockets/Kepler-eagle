@@ -1,0 +1,7 @@
+Partlist exported from C:/Users/Daniel Alencar/Documents/EAGLE/projects/Avionica-trainees/Esquemático acionamento/versão 02 acionamento/Esquemático.sch at 3/3/2024 3:44 PM
+
+Qty Value      Device      Package              Parts              Description                                                MF MPN OC_FARNELL OC_NEWARK POPULARITY SPICEPREFIX
+2   1k         R-EU_0204/7 0204/7               R1, R2             RESISTOR, European symbol                                                              79         R          
+1   AL11P      AL11P       AL11P                SP1                SPEAKER Source: Buerklin                                          unknown    unknown   3                     
+2   IRF540     IRF540      TO220                Q1, Q2             N-Channel Enhancement MOSFET (HEXFET); 100V; 28A; 0,077Ohm                             5                     
+4   JST2.54X2P JST2.54X2P  JST2.54X2P_FOOTPRINT U$1, U$2, U$3, U$4 Conector JST 2 pinos (2.54mm de distância entre pinos)                                                       

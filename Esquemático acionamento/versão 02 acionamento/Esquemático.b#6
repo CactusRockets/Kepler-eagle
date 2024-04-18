@@ -79,9 +79,9 @@
 <wire x1="-30.46" y1="-40.31" x2="3.81" y2="-40.31" width="0" layer="20"/>
 <wire x1="3.81" y1="-40.31" x2="3.81" y2="7.62" width="0" layer="20"/>
 <hole x="-27.559" y="-37.719" drill="3"/>
-<hole x="-8.636" y="-37.846" drill="3"/>
+<hole x="1.27" y="-37.846" drill="3"/>
 <hole x="-27.94" y="5.08" drill="3"/>
-<hole x="-8.89" y="5.207" drill="3"/>
+<hole x="1.27" y="5.207" drill="3"/>
 <dimension x1="-30.48" y1="10.16" x2="-6.223" y2="10.16" x3="-18.3515" y3="12.7" textsize="1.778" layer="27"/>
 </plain>
 <libraries>
@@ -1558,11 +1558,7 @@ design rules under a new name.</description>
 <contactref element="U$4" pad="1"/>
 <contactref element="Q1" pad="3"/>
 <contactref element="R2" pad="1"/>
-<wire x1="-12.827" y1="-18.415" x2="-25.4" y2="-21.59" width="0" layer="19" extent="1-1"/>
-<wire x1="-11.43" y1="-23.495" x2="-12.827" y2="-18.415" width="0" layer="19" extent="1-1"/>
-<wire x1="-11.684" y1="-31.75" x2="-11.43" y2="-23.495" width="0" layer="19" extent="1-1"/>
-<wire x1="-1.27" y1="-18.542" x2="-12.827" y2="-18.415" width="0" layer="19" extent="1-1"/>
-<wire x1="-0.508" y1="-23.495" x2="-1.27" y2="-18.542" width="0" layer="19" extent="1-1"/>
+<wire x1="-11.43" y1="-23.495" x2="-11.684" y2="-31.75" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DRENO">
 <contactref element="U$3" pad="2"/>

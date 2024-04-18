@@ -487,32 +487,32 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 <library name="CRD" urn="urn:adsk.eagle:library:39051337">
 <description>Componentes utilizados na Cactus Rockets Design</description>
 <packages>
-<package name="BMP280_FOOTPRINT" urn="urn:adsk.eagle:footprint:39029068/2" library_version="32">
+<package name="BMP280_FOOTPRINT" urn="urn:adsk.eagle:footprint:39029068/3" library_version="37">
 <wire x1="-7.62" y1="-7.62" x2="7.38" y2="-7.62" width="0.127" layer="21"/>
 <wire x1="7.38" y1="-7.62" x2="7.38" y2="3.38" width="0.127" layer="21"/>
 <wire x1="7.38" y1="3.38" x2="-7.62" y2="3.38" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="3.38" x2="-7.62" y2="-7.62" width="0.127" layer="21"/>
-<pad name="VCC" x="-6.4745" y="-6.12" drill="0.891"/>
-<pad name="GND" x="-3.9345" y="-6.12" drill="0.891"/>
-<pad name="SCL" x="-1.3945" y="-6.12" drill="0.891"/>
-<pad name="SDA" x="1.1455" y="-6.12" drill="0.891"/>
-<pad name="CSB" x="3.6855" y="-6.12" drill="0.891"/>
-<pad name="SDO" x="6.2255" y="-6.12" drill="0.891"/>
+<pad name="VCC" x="-6.4745" y="-6.12" drill="1.3"/>
+<pad name="GND" x="-3.9345" y="-6.12" drill="1.3"/>
+<pad name="SCL" x="-1.3945" y="-6.12" drill="1.3"/>
+<pad name="SDA" x="1.1455" y="-6.12" drill="1.3"/>
+<pad name="CSB" x="3.6855" y="-6.12" drill="1.3"/>
+<pad name="SDO" x="6.2255" y="-6.12" drill="1.3"/>
 <text x="-3.429" y="-2.413" size="1.27" layer="21">BMP280</text>
 </package>
-<package name="MPU6050_FOOTPRINT" urn="urn:adsk.eagle:footprint:39029067/5" library_version="32">
+<package name="MPU6050_FOOTPRINT" urn="urn:adsk.eagle:footprint:39029067/6" library_version="37">
 <wire x1="-10.16" y1="-11.43" x2="10.64" y2="-11.43" width="0.127" layer="21"/>
 <wire x1="10.64" y1="-11.43" x2="10.64" y2="4.17" width="0.127" layer="21"/>
 <wire x1="10.64" y1="4.17" x2="-10.16" y2="4.17" width="0.127" layer="21"/>
 <wire x1="-10.16" y1="4.17" x2="-10.16" y2="-11.43" width="0.127" layer="21"/>
-<pad name="VCC" x="-8.9145" y="-10.1845" drill="0.891"/>
-<pad name="GND" x="-6.3145" y="-10.1845" drill="0.891"/>
-<pad name="SCL" x="-3.7145" y="-10.1845" drill="0.891"/>
-<pad name="SDA" x="-1.1145" y="-10.1845" drill="0.891"/>
-<pad name="XDA" x="1.4855" y="-10.1845" drill="0.891"/>
-<pad name="XCL" x="4.0855" y="-10.1845" drill="0.891"/>
-<pad name="ADO" x="6.6855" y="-10.1845" drill="0.891"/>
-<pad name="INT" x="9.2855" y="-10.1845" drill="0.891"/>
+<pad name="VCC" x="-8.9145" y="-10.1845" drill="1.3"/>
+<pad name="GND" x="-6.3145" y="-10.1845" drill="1.3"/>
+<pad name="SCL" x="-3.7145" y="-10.1845" drill="1.3"/>
+<pad name="SDA" x="-1.1145" y="-10.1845" drill="1.3"/>
+<pad name="XDA" x="1.4855" y="-10.1845" drill="1.3"/>
+<pad name="XCL" x="4.0855" y="-10.1845" drill="1.3"/>
+<pad name="ADO" x="6.6855" y="-10.1845" drill="1.3"/>
+<pad name="INT" x="9.2855" y="-10.1845" drill="1.3"/>
 <circle x="-8.16" y="2.57" radius="1" width="0.127" layer="21"/>
 <circle x="8.84" y="2.57" radius="1" width="0.127" layer="21"/>
 <text x="-3.66" y="-3.93" size="1.27" layer="21">MPU6050</text>
@@ -536,29 +536,31 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 <wire x1="0.508" y1="-2.032" x2="2.032" y2="-2.032" width="0.127" layer="21"/>
 <text x="-2.54" y="2.794" size="0.6096" layer="21">JST 2.54X2P</text>
 </package>
-<package name="PRESSION_BUTTON_FOOTPRINT" urn="urn:adsk.eagle:footprint:43483813/2" library_version="34">
-<pad name="PL1" x="3.5" y="2" drill="0.7"/>
-<pad name="PL2" x="6.2" y="2" drill="0.7"/>
-<pad name="PL3" x="8.9" y="2" drill="0.7"/>
-<pad name="PR1" x="3.5" y="4.5" drill="0.7"/>
-<pad name="PR2" x="6.2" y="4.5" drill="0.7"/>
-<pad name="PR3" x="8.9" y="4.5" drill="0.7"/>
-<text x="13.589" y="3.175" size="0.6096" layer="21">Pression button</text>
-<wire x1="0" y1="-1" x2="24.7" y2="-1" width="0.127" layer="21"/>
-<wire x1="24.7" y1="-1" x2="24.7" y2="7" width="0.127" layer="21"/>
-<wire x1="24.7" y1="7" x2="0" y2="7" width="0.127" layer="21"/>
-<wire x1="0" y1="7" x2="0" y2="-1" width="0.127" layer="21"/>
-<hole x="0" y="3.35" drill="0.7"/>
-<hole x="12.1" y="3.35" drill="0.7"/>
+<package name="PRESSION_BUTTON_FOOTPRINT" urn="urn:adsk.eagle:footprint:43483813/3" library_version="37">
+<pad name="PL1" x="-7.803" y="-1.302" drill="1.1"/>
+<pad name="PL2" x="-4.803" y="-1.302" drill="1.1"/>
+<pad name="PL3" x="-1.803" y="-1.302" drill="1.1"/>
+<pad name="PR1" x="-7.803" y="1.198" drill="1.1"/>
+<pad name="PR2" x="-4.803" y="1.198" drill="1.1"/>
+<pad name="PR3" x="-1.803" y="1.198" drill="1.1"/>
+<text x="3.175" y="-0.508" size="0.6096" layer="21">Pression button</text>
+<wire x1="-11.303" y1="-3.921" x2="13.397" y2="-3.921" width="0.127" layer="21"/>
+<wire x1="13.397" y1="-3.921" x2="13.397" y2="4.079" width="0.127" layer="21"/>
+<wire x1="13.397" y1="4.079" x2="-11.303" y2="4.079" width="0.127" layer="21"/>
+<wire x1="-11.303" y1="4.079" x2="-11.303" y2="-3.921" width="0.127" layer="21"/>
+<hole x="-11.176" y="3.937" drill="2"/>
+<hole x="-11.176" y="-3.81" drill="2"/>
+<hole x="1.778" y="-3.81" drill="2"/>
+<hole x="1.778" y="3.937" drill="2"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="BMP280_FOOTPRINT" urn="urn:adsk.eagle:package:39029072/5" type="model" library_version="32">
+<package3d name="BMP280_FOOTPRINT" urn="urn:adsk.eagle:package:39029072/6" type="model" library_version="37">
 <packageinstances>
 <packageinstance name="BMP280_FOOTPRINT"/>
 </packageinstances>
 </package3d>
-<package3d name="MPU6050_FOOTPRINT" urn="urn:adsk.eagle:package:39029071/7" type="model" library_version="32">
+<package3d name="MPU6050_FOOTPRINT" urn="urn:adsk.eagle:package:39029071/8" type="model" library_version="37">
 <packageinstances>
 <packageinstance name="MPU6050_FOOTPRINT"/>
 </packageinstances>
@@ -568,7 +570,7 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 <packageinstance name="JST2.54X2P_FOOTPRINT"/>
 </packageinstances>
 </package3d>
-<package3d name="PRESSION_BUTTON_FOOTPRINT" urn="urn:adsk.eagle:package:43483815/2" type="box" library_version="34">
+<package3d name="PRESSION_BUTTON_FOOTPRINT" urn="urn:adsk.eagle:package:43483815/3" type="box" library_version="37">
 <packageinstances>
 <packageinstance name="PRESSION_BUTTON_FOOTPRINT"/>
 </packageinstances>
@@ -616,34 +618,34 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 <wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
 <text x="-6.858" y="2.54" size="1.6764" layer="94">JST 2.54X2P</text>
 </symbol>
-<symbol name="PRESSION_BUTTON_SYMBOL" urn="urn:adsk.eagle:symbol:43483814/1" library_version="34">
-<wire x1="-2.286" y1="3.81" x2="-2.286" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-2.286" y1="1.27" x2="-2.286" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-2.286" y1="-1.27" x2="-2.286" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="-2.286" y1="-3.81" x2="18.034" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="-2.286" y1="3.81" x2="18.034" y2="3.81" width="0.254" layer="94"/>
-<wire x1="18.034" y1="3.81" x2="18.034" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="-2.286" y1="1.27" x2="-9.906" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-9.906" y1="1.27" x2="-12.446" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-12.446" y1="1.27" x2="-12.446" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-12.446" y1="-1.27" x2="-9.906" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-2.286" y1="-1.27" x2="-9.906" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-9.906" y1="-1.27" x2="-9.906" y2="-2.286" width="0.254" layer="94"/>
-<wire x1="-9.906" y1="-2.286" x2="-14.224" y2="-2.286" width="0.254" layer="94"/>
-<wire x1="-14.224" y1="-2.286" x2="-14.224" y2="2.286" width="0.254" layer="94"/>
-<wire x1="-14.224" y1="2.286" x2="-9.906" y2="2.286" width="0.254" layer="94"/>
-<wire x1="-9.906" y1="2.286" x2="-9.906" y2="1.27" width="0.254" layer="94"/>
-<pin name="PL1" x="2.794" y="-8.89" length="middle" rot="R90"/>
-<pin name="PL2" x="7.874" y="-8.89" length="middle" rot="R90"/>
-<pin name="PL3" x="12.954" y="-8.89" length="middle" rot="R90"/>
-<pin name="PR1" x="5.334" y="8.89" length="middle" rot="R270"/>
-<pin name="PR2" x="10.414" y="8.89" length="middle" rot="R270"/>
-<pin name="PR3" x="15.494" y="8.89" length="middle" rot="R270"/>
-<text x="-11.43" y="-0.508" size="0.8128" layer="94">Pression button</text>
+<symbol name="PRESSION_BUTTON_SYMBOL" urn="urn:adsk.eagle:symbol:43483814/2" library_version="37">
+<wire x1="-1.27" y1="7.62" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-7.62" x2="19.05" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="7.62" x2="19.05" y2="7.62" width="0.254" layer="94"/>
+<wire x1="19.05" y1="7.62" x2="19.05" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-9.652" y1="1.27" x2="-12.192" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-12.192" y1="1.27" x2="-12.192" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-12.192" y1="-1.27" x2="-9.652" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-9.652" y1="-1.27" x2="-9.652" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="-9.652" y1="-2.286" x2="-13.97" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="-13.97" y1="-2.286" x2="-13.97" y2="2.286" width="0.254" layer="94"/>
+<wire x1="-13.97" y1="2.286" x2="-9.652" y2="2.286" width="0.254" layer="94"/>
+<wire x1="-9.652" y1="2.286" x2="-9.652" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-9.652" y1="1.27" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-9.652" y1="-1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<pin name="PL1" x="3.81" y="-12.7" length="middle" rot="R90"/>
+<pin name="PL2" x="8.89" y="-12.7" length="middle" rot="R90"/>
+<pin name="PL3" x="13.97" y="-12.7" length="middle" rot="R90"/>
+<pin name="PR1" x="3.81" y="12.7" length="middle" rot="R270"/>
+<pin name="PR2" x="8.89" y="12.7" length="middle" rot="R270"/>
+<pin name="PR3" x="13.97" y="12.7" length="middle" rot="R270"/>
+<text x="4.572" y="-0.508" size="0.8128" layer="94">Pression button</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="BMP280" urn="urn:adsk.eagle:component:39029074/6" library_version="32">
+<deviceset name="BMP280" urn="urn:adsk.eagle:component:39029074/7" library_version="37">
 <description>Sensor barométrico</description>
 <gates>
 <gate name="G$1" symbol="BMP280_SYMBOL" x="-27.94" y="-30.48"/>
@@ -659,7 +661,7 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39029072/5"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39029072/6"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -667,7 +669,7 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 </device>
 </devices>
 </deviceset>
-<deviceset name="MPU6050" urn="urn:adsk.eagle:component:39029073/9" library_version="32">
+<deviceset name="MPU6050" urn="urn:adsk.eagle:component:39029073/10" library_version="37">
 <description>Acelerômetro e Giroscópio</description>
 <gates>
 <gate name="G$1" symbol="MPU6050_SYMBOL" x="-43.18" y="-33.02"/>
@@ -685,7 +687,7 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 <connect gate="G$1" pin="XDA" pad="XDA"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:39029071/7"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:39029071/8"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -713,7 +715,7 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 </device>
 </devices>
 </deviceset>
-<deviceset name="PRESSION_BUTTON" urn="urn:adsk.eagle:component:43483816/2" library_version="34">
+<deviceset name="PRESSION_BUTTON" urn="urn:adsk.eagle:component:43483816/3" library_version="37">
 <gates>
 <gate name="G$1" symbol="PRESSION_BUTTON_SYMBOL" x="-2.54" y="0"/>
 </gates>
@@ -728,7 +730,7 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 <connect gate="G$1" pin="PR3" pad="PR3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:43483815/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:43483815/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -7262,13 +7264,13 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <parts>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="ARDUINO_NANO1" library="ArduinoNanoV30" library_urn="urn:adsk.eagle:library:39315983" deviceset="ARDUINO_NANO" device="" package3d_urn="urn:adsk.eagle:package:39315986/2"/>
-<part name="U$1" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="BMP280" device="V1" package3d_urn="urn:adsk.eagle:package:39029072/5"/>
-<part name="U$2" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="MPU6050" device="V1" package3d_urn="urn:adsk.eagle:package:39029071/7"/>
+<part name="U$1" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="BMP280" device="V1" package3d_urn="urn:adsk.eagle:package:39029072/6"/>
+<part name="U$2" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="MPU6050" device="V1" package3d_urn="urn:adsk.eagle:package:39029071/8"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/2"/>
 <part name="U$5" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/2"/>
 <part name="U$6" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="JST2.54X2P" device="" package3d_urn="urn:adsk.eagle:package:39191967/2"/>
-<part name="U$3" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="PRESSION_BUTTON" device="" package3d_urn="urn:adsk.eagle:package:43483815/2"/>
+<part name="U$3" library="CRD" library_urn="urn:adsk.eagle:library:39051337" deviceset="PRESSION_BUTTON" device="" package3d_urn="urn:adsk.eagle:package:43483815/3"/>
 </parts>
 <sheets>
 <sheet>
@@ -7417,11 +7419,10 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="25.4" y1="121.92" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="48.26" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="48.26" x2="53.34" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="83.82" x2="68.834" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="83.82" x2="69.85" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="PL2"/>
-<wire x1="68.834" y1="83.82" x2="68.834" y2="87.63" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="PR2"/>
-<wire x1="71.374" y1="105.41" x2="71.12" y2="105.41" width="0.1524" layer="91"/>
+<wire x1="69.85" y1="109.22" x2="71.12" y2="105.41" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="105.41" x2="71.12" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="111.76" x2="43.18" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="111.76" x2="43.18" y2="86.36" width="0.1524" layer="91"/>
@@ -7434,11 +7435,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <segment>
 <pinref part="ARDUINO_NANO1" gate="G$1" pin="VIN"/>
 <pinref part="U$3" gate="G$1" pin="PR3"/>
-<wire x1="76.454" y1="105.41" x2="76.2" y2="105.41" width="0.1524" layer="91"/>
+<wire x1="74.93" y1="109.22" x2="76.2" y2="105.41" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="105.41" x2="76.2" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="111.76" x2="76.2" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="PL3"/>
-<wire x1="73.914" y1="86.36" x2="73.914" y2="87.63" width="0.1524" layer="91"/>
+<wire x1="73.914" y1="86.36" x2="74.93" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="86.36" x2="73.914" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="86.36" x2="83.82" y2="111.76" width="0.1524" layer="91"/>
 <junction x="83.82" y="86.36"/>

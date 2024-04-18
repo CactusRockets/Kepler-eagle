@@ -82,7 +82,8 @@
 <hole x="1.27" y="-37.846" drill="3"/>
 <hole x="-27.94" y="5.08" drill="3"/>
 <hole x="1.27" y="5.207" drill="3"/>
-<dimension x1="-30.48" y1="10.16" x2="-6.223" y2="10.16" x3="-18.3515" y3="12.7" textsize="1.778" layer="27"/>
+<dimension x1="-30.48" y1="10.16" x2="3.937" y2="10.16" x3="-13.2715" y3="12.7" textsize="1.778" layer="27" visible="yes"/>
+<dimension x1="7.62" y1="7.62" x2="7.62" y2="-40.259" x3="10.16" y3="-16.3195" textsize="1.778" layer="27" visible="yes"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">

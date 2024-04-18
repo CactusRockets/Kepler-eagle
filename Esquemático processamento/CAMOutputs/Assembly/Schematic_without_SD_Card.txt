@@ -1,0 +1,10 @@
+Partlist exported from C:/Users/Daniel Alencar/Documents/EAGLE/projects/Avionica-trainees/Esquemático processamento/Schematic_without_SD_Card.sch at 3/3/2024 3:50 PM
+
+Qty Value           Device          Package                   Parts         Description                                            POPULARITY SPICEPREFIX
+1                   ARDUINO_NANO    ARDUINO_NANO              ARDUINO_NANO1 Arduino Nano V3.0                                                            
+1                   LED5MM          LED5MM                    LED1          LED                                                    93                    
+1                   R-EU_0207/10    0207/10                   R1            RESISTOR, European symbol                              81         R          
+1   BMP280V1        BMP280V1        BMP280_FOOTPRINT          U$1           Sensor barométrico                                                           
+2   JST2.54X2P      JST2.54X2P      JST2.54X2P_FOOTPRINT      U$5, U$6      Conector JST 2 pinos (2.54mm de distância entre pinos)                       
+1   MPU6050V1       MPU6050V1       MPU6050_FOOTPRINT         U$2           Acelerômetro e Giroscópio                                                    
+1   PRESSION_BUTTON PRESSION_BUTTON PRESSION_BUTTON_FOOTPRINT U$3                                                                                        

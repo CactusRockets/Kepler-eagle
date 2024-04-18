@@ -523,17 +523,17 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 <text x="-2.54" y="2.794" size="0.6096" layer="21">JST 2.54X2P</text>
 </package>
 <package name="PRESSION_BUTTON_FOOTPRINT" library_version="32" library_locally_modified="yes">
-<wire x1="0" y1="0" x2="42.8" y2="0" width="0.127" layer="21"/>
-<wire x1="42.8" y1="0" x2="42.8" y2="8.93" width="0.127" layer="21"/>
-<wire x1="42.8" y1="8.93" x2="0" y2="8.93" width="0.127" layer="21"/>
-<wire x1="0" y1="8.93" x2="0" y2="0" width="0.127" layer="21"/>
-<pad name="P1" x="5.5" y="2.032" drill="1.4"/>
-<pad name="P2" x="9.5" y="2.032" drill="1.4"/>
-<pad name="P3" x="13.373" y="2.032" drill="1.4"/>
-<pad name="P01" x="5.5" y="6.731" drill="1.4"/>
-<pad name="P02" x="9.5" y="6.731" drill="1.4"/>
-<pad name="P03" x="13.373" y="6.731" drill="1.4"/>
-<text x="21.59" y="3.81" size="1.27" layer="21">Pression button</text>
+<pad name="PL1" x="3.449584375" y="1.83316875" drill="1.4"/>
+<pad name="PL2" x="6.843628125" y="1.8404375" drill="1.4"/>
+<pad name="PL3" x="10.078796875" y="1.8114" drill="1.4"/>
+<text x="13.589" y="3.175" size="0.6096" layer="21">Pression button</text>
+<wire x1="0" y1="0" x2="22" y2="0" width="0.127" layer="21"/>
+<wire x1="22" y1="0" x2="22" y2="7" width="0.127" layer="21"/>
+<wire x1="22" y1="7" x2="0" y2="7" width="0.127" layer="21"/>
+<wire x1="0" y1="7" x2="0" y2="0" width="0.127" layer="21"/>
+<pad name="PR1" x="3.449584375" y="5.26216875" drill="1.4"/>
+<pad name="PR2" x="6.843628125" y="5.2694375" drill="1.4"/>
+<pad name="PR3" x="10.078796875" y="5.2404" drill="1.4"/>
 </package>
 </packages>
 <packages3d>
@@ -600,9 +600,9 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 <wire x1="-2.286" y1="1.27" x2="-2.286" y2="-1.27" width="0.254" layer="94"/>
 <wire x1="-2.286" y1="-1.27" x2="-2.286" y2="-3.81" width="0.254" layer="94"/>
 <wire x1="-2.286" y1="-3.81" x2="18.034" y2="-3.81" width="0.254" layer="94"/>
-<pin name="P1" x="2.794" y="-8.89" length="middle" rot="R90"/>
-<pin name="P2" x="7.874" y="-8.89" length="middle" rot="R90"/>
-<pin name="P3" x="12.954" y="-8.89" length="middle" rot="R90"/>
+<pin name="PL1" x="2.794" y="-8.89" length="middle" rot="R90"/>
+<pin name="PL2" x="7.874" y="-8.89" length="middle" rot="R90"/>
+<pin name="PL3" x="12.954" y="-8.89" length="middle" rot="R90"/>
 <wire x1="-2.286" y1="3.81" x2="18.034" y2="3.81" width="0.254" layer="94"/>
 <wire x1="18.034" y1="3.81" x2="18.034" y2="-3.81" width="0.254" layer="94"/>
 <wire x1="-2.286" y1="1.27" x2="-9.906" y2="1.27" width="0.254" layer="94"/>
@@ -615,9 +615,9 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 <wire x1="-14.224" y1="-2.286" x2="-14.224" y2="2.286" width="0.254" layer="94"/>
 <wire x1="-14.224" y1="2.286" x2="-9.906" y2="2.286" width="0.254" layer="94"/>
 <wire x1="-9.906" y1="2.286" x2="-9.906" y2="1.27" width="0.254" layer="94"/>
-<pin name="P01" x="5.334" y="8.89" length="middle" rot="R270"/>
-<pin name="P02" x="10.414" y="8.89" length="middle" rot="R270"/>
-<pin name="P03" x="15.494" y="8.89" length="middle" rot="R270"/>
+<pin name="PR1" x="5.334" y="8.89" length="middle" rot="R270"/>
+<pin name="PR2" x="10.414" y="8.89" length="middle" rot="R270"/>
+<pin name="PR3" x="15.494" y="8.89" length="middle" rot="R270"/>
 <text x="-11.43" y="-0.508" size="0.8128" layer="94">Pression button</text>
 </symbol>
 </symbols>
@@ -699,12 +699,12 @@ Each pin can provide or receive a maximum of 40 mA and has an internal pull-up r
 <devices>
 <device name="" package="PRESSION_BUTTON_FOOTPRINT">
 <connects>
-<connect gate="G$1" pin="P01" pad="P01"/>
-<connect gate="G$1" pin="P02" pad="P02"/>
-<connect gate="G$1" pin="P03" pad="P03"/>
-<connect gate="G$1" pin="P1" pad="P1"/>
-<connect gate="G$1" pin="P2" pad="P2"/>
-<connect gate="G$1" pin="P3" pad="P3"/>
+<connect gate="G$1" pin="PL1" pad="PL1"/>
+<connect gate="G$1" pin="PL2" pad="PL2"/>
+<connect gate="G$1" pin="PL3" pad="PL3"/>
+<connect gate="G$1" pin="PR1" pad="PR1"/>
+<connect gate="G$1" pin="PR2" pad="PR2"/>
+<connect gate="G$1" pin="PR3" pad="PR3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7397,21 +7397,29 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="ARDUINO_NANO1" gate="G$1" pin="VIN"/>
 <wire x1="149.86" y1="116.84" x2="144.78" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="53.34" x2="83.82" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P3"/>
+<pinref part="U$3" gate="G$1" pin="PL3"/>
 <wire x1="83.82" y1="86.36" x2="73.914" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="73.914" y1="86.36" x2="73.914" y2="87.63" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
+<wire x1="83.82" y1="86.36" x2="83.82" y2="111.76" width="0.1524" layer="91"/>
+<junction x="83.82" y="86.36"/>
 <pinref part="U$6" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="121.92" x2="25.4" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="121.92" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="48.26" x2="53.34" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="48.26" x2="53.34" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="83.82" x2="68.834" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U$3" gate="G$1" pin="P2"/>
+<pinref part="U$3" gate="G$1" pin="PL2"/>
 <wire x1="68.834" y1="83.82" x2="68.834" y2="87.63" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="PR2"/>
+<wire x1="71.374" y1="105.41" x2="71.12" y2="105.41" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="105.41" x2="71.12" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="111.76" x2="43.18" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="111.76" x2="43.18" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="86.36" x2="53.34" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="86.36" x2="53.34" y2="83.82" width="0.1524" layer="91"/>
+<junction x="53.34" y="83.82"/>
+<wire x1="83.82" y1="111.76" x2="71.12" y2="111.76" width="0.1524" layer="91"/>
+<junction x="71.12" y="111.76"/>
 </segment>
 </net>
 </nets>
