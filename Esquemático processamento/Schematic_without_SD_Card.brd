@@ -9,20 +9,20 @@
 <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
-<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
-<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
-<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
-<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
-<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
-<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
-<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
-<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
-<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
-<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
-<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -34,8 +34,8 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -50,13 +50,13 @@
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
@@ -1429,9 +1429,9 @@ design rules under a new name.</description>
 <param name="msDrill" value="0.35mm"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
-<param name="rvPadTop" value="0.8"/>
+<param name="rvPadTop" value="0.25"/>
 <param name="rvPadInner" value="0.25"/>
-<param name="rvPadBottom" value="0.8"/>
+<param name="rvPadBottom" value="0.25"/>
 <param name="rvViaOuter" value="0.25"/>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
@@ -1622,6 +1622,8 @@ design rules under a new name.</description>
 <wire x1="18.9635" y1="27.1905" x2="26.1905" y2="27.1905" width="1.5" layer="16"/>
 <wire x1="26.1905" y1="27.1905" x2="31.1655" y2="32.1655" width="1.5" layer="16"/>
 <wire x1="16.8095" y1="27.1905" x2="18.9635" y2="27.1905" width="1.5" layer="16"/>
+<contactref element="U$1" pad="CSB"/>
+<wire x1="31.1655" y1="33.79" x2="33.7055" y2="33.79" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="ARDUINO_NANO1" pad="9"/>
@@ -1637,6 +1639,8 @@ design rules under a new name.</description>
 <wire x1="29.21" y1="42.402" x2="29.21" y2="37.21" width="1.5" layer="16"/>
 <wire x1="28.6255" y1="36.6255" x2="28.6255" y2="33.79" width="1.5" layer="16"/>
 <wire x1="29.21" y1="37.21" x2="28.6255" y2="36.6255" width="1.5" layer="16"/>
+<contactref element="U$1" pad="SDO"/>
+<wire x1="28.6255" y1="33.79" x2="36.2455" y2="33.79" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND">
 <contactref element="ARDUINO_NANO1" pad="14"/>
@@ -1659,9 +1663,6 @@ design rules under a new name.</description>
 <wire x1="25.17" y1="24.83" x2="25.135715625" y2="24.864284375" width="1.5" layer="1"/>
 <wire x1="55.88" y1="24.83" x2="40" y2="24.83" width="1.5" layer="1"/>
 <wire x1="25.17" y1="24.83" x2="40" y2="24.83" width="1.5" layer="1"/>
-<wire x1="41.91" y1="42.402" x2="52.152" y2="47.774" width="0" layer="19" extent="1-1"/>
-<wire x1="36.83" y1="57.642" x2="41.91" y2="42.402" width="0" layer="19" extent="1-1"/>
-<wire x1="26.0855" y1="33.79" x2="41.91" y2="42.402" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="ARDUINO_NANO1" pad="12"/>
@@ -1713,15 +1714,17 @@ design rules under a new name.</description>
 <contactref element="U$6" pad="1"/>
 <contactref element="U$3" pad="PL2"/>
 <contactref element="U$3" pad="PR2"/>
-<wire x1="46.3094" y1="32.881796875" x2="54.692" y2="47.774" width="0" layer="19" extent="1-1"/>
-<wire x1="43.8094" y1="32.881796875" x2="46.3094" y2="32.881796875" width="0" layer="19" extent="1-1"/>
+<contactref element="U$3" pad="PL1"/>
+<wire x1="43.8094" y1="35.881796875" x2="54.692" y2="47.774" width="0" layer="19" extent="1-1"/>
+<wire x1="43.8094" y1="32.881796875" x2="43.8094" y2="35.881796875" width="0" layer="19" extent="1-1"/>
+<wire x1="46.3094" y1="32.881796875" x2="43.8094" y2="32.881796875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$4">
 <contactref element="ARDUINO_NANO1" pad="15"/>
 <contactref element="U$3" pad="PL3"/>
 <contactref element="U$3" pad="PR3"/>
-<wire x1="46.3094" y1="29.881796875" x2="44.45" y2="42.402" width="0" layer="19" extent="1-1"/>
-<wire x1="43.8094" y1="29.881796875" x2="46.3094" y2="29.881796875" width="0" layer="19" extent="1-1"/>
+<wire x1="43.8094" y1="29.881796875" x2="44.45" y2="42.402" width="0" layer="19" extent="1-1"/>
+<wire x1="46.3094" y1="29.881796875" x2="43.8094" y2="29.881796875" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
